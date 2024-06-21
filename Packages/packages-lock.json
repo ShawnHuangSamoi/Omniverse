@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.nvidia.omniverse.connector": {
+      "version": "file:C:/Users/User/AppData/Local/ov/pkg/unity-connector-202.0.1/com.nvidia.omniverse.connector",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.15",
       "depth": 1,
@@ -13,6 +21,13 @@
     "com.unity.collab-proxy": {
       "version": "2.3.1",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
